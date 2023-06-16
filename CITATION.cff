@@ -1,0 +1,45 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: BAMVALS
+message: Bayesian Volterra Tensor Network with Tikhonov prior
+type: software
+authors:
+  - given-names: 'Eva '
+    family-names: Memmel
+    email: e.m.memmel@tudelft.nl
+    affiliation: TU Delft
+  - given-names: 'Clara '
+    family-names: Menzen
+    email: c.m.menzen@tudelft.nl
+    affiliation: TU Delft
+  - given-names: 'Kim '
+    family-names: Batselier
+    email: k.batselier@tudelft.nl
+    affiliation: TU Delft
+repository-code: 'https://github.com/blixi/BAMVALS'
+abstract: >-
+  Bayesian Framework for a MIMO Volterra Tensor Network:
+
+  Solving higher-order nonlinear Volterra system
+  identification problems with a low-rank tensor network. By
+  compressing all Volterra kernels simultaneously, we avoid
+  the exponential growth of monomials w.r.t. the order of
+  the Volterra kernel. 
+
+  The contribution of this software is to introduce a
+  Bayesian framework. We use a zero-mean prior with a
+  diagonal covariance matrix on the last core of the tensor
+  network. The algorithm is illustrated on a standard
+  nonlinear system identification benchmark (cascaded tanks
+  benchmark).
+keywords:
+  - Tensor Networks
+  - Nonlinear system Identification
+  - Volterra Series
+  - Bayesian methods
+license: MIT
+commit: initial commit
+version: '1.0'
+date-released: '2023-06-16'
