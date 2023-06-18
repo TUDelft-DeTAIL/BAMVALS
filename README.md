@@ -13,8 +13,10 @@ To run the code, execute the script BAMVALS.m
 For the code to run you must download the following files:
 
 https://github.com/kbatseli/MVMALS [1]
+
 https://data.4tu.nl/articles/_/12960104 [2]
 
 
 [1] Batselier, Kim, Zhongming Chen, and Ngai Wong. "Tensor Network alternating linear scheme for MIMO Volterra system identification." Automatica 84 (2017): 26-35.
+
 [2] Schoukens, Maarten, et al. "Cascaded tanks benchmark combining soft and hard nonlinearities." Workshop on nonlinear system identification benchmarks. 2016.
